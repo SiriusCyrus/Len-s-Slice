@@ -117,7 +117,7 @@ print(daily_transactions)
 daily_transactions_split = []
 for i in daily_transactions:
     daily_transactions_split.append(i.split("."))
-# print(daily_transactions_split)
+print(daily_transactions_split)
 
 transactions_clean = []
 for daily_transactions in daily_transactions_split:
